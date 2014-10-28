@@ -12,7 +12,7 @@
     [ContentType("text")]
     [Name("MouseNavigation")]
     [TextViewRole(PredefinedTextViewRoles.Interactive)]
-    public class MouseNavigationProvider : IMouseProcessorProvider
+    internal class MouseNavigationProvider : IMouseProcessorProvider
     {
         [Import]
         public SVsServiceProvider ServiceProvider
