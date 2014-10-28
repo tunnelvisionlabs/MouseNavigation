@@ -195,8 +195,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\External\Eula.rtf">
-      <Link>Eula.rtf</Link>
+    <Content Include="..\LICENSE.txt">
+      <Link>LICENSE.txt</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="..\External\Key.snk">
