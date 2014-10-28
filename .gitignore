@@ -1,0 +1,13 @@
+# Per-user files
+*.csproj.user
+*.suo
+
+# Temporary files created by the IDE
+*.sln.ide/
+
+# NuGet packages
+packages/
+
+# Build output
+bin/
+obj/
