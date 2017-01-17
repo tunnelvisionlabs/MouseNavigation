@@ -1,0 +1,15 @@
+version: 1.0.{build}
+image: Visual Studio 2015
+configuration: Release
+platform: Any CPU
+init:
+- git config --global core.autocrlf true
+install:
+- nuget restore
+build:
+  verbosity: minimal
+test: off
+artifacts:
+- path: '**\*.vsix'
+cache:
+- packages -> **\packages.config
