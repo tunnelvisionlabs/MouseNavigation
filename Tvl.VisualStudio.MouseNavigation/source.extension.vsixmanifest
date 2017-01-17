@@ -1,41 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="Tvl.VisualStudio.MouseNavigation.74370A5B-33D9-4F9E-A910-D83D487A825D">
-    <Name>Mouse Navigation</Name>
-    <Author>Sam Harwell</Author>
-    <Version>3.0.1</Version>
-    <Description xml:space="preserve">Add support for mouse navigation buttons (back and forward).</Description>
-    <Locale>1033</Locale>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Tvl.VisualStudio.MouseNavigation.74370A5B-33D9-4F9E-A910-D83D487A825D" Version="3.0.1" Language="en-US" Publisher="Sam Harwell" />
+    <DisplayName>Mouse Navigation</DisplayName>
+    <Description>Add support for mouse navigation buttons (back and forward).</Description>
+    <MoreInfo>https://github.com/tunnelvisionlabs/MouseNavigation</MoreInfo>
     <License>LICENSE.txt</License>
-    <SupportedProducts>
-      <VisualStudio Version="10.0">
-        <Edition>Ultimate</Edition>
-        <Edition>Premium</Edition>
-        <Edition>Pro</Edition>
-        <Edition>IntegratedShell</Edition>
-      </VisualStudio>
-      <VisualStudio Version="11.0">
-        <Edition>Ultimate</Edition>
-        <Edition>Premium</Edition>
-        <Edition>Pro</Edition>
-        <Edition>IntegratedShell</Edition>
-      </VisualStudio>
-      <VisualStudio Version="12.0">
-        <Edition>Ultimate</Edition>
-        <Edition>Premium</Edition>
-        <Edition>Pro</Edition>
-        <Edition>IntegratedShell</Edition>
-      </VisualStudio>
-      <VisualStudio Version="14.0">
-        <Edition>Ultimate</Edition>
-        <Edition>Premium</Edition>
-        <Edition>Pro</Edition>
-        <Edition>IntegratedShell</Edition>
-      </VisualStudio>
-    </SupportedProducts>
-    <SupportedFrameworkRuntimeEdition MinVersion="4.0" />
-  </Identifier>
-  <Content>
-    <MefComponent>|%CurrentProject%|</MefComponent>
-  </Content>
-</Vsix>
+    <GettingStartedGuide>https://marketplace.visualstudio.com/items?itemName=SamHarwell.MouseNavigation</GettingStartedGuide>
+    <ReleaseNotes>https://github.com/tunnelvisionlabs/MouseNavigation/releases/tag/v3.0.1</ReleaseNotes>
+    <!--<Icon></Icon>-->
+    <!--<PreviewImage></PreviewImage>-->
+    <!--<Tags></Tags>-->
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+  </Assets>
+</PackageManifest>

@@ -1,4 +1,4 @@
-# Mouse Navigation extension for Visual Studio 2010+
+# Mouse Navigation extension for Visual Studio 2012+
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ydlc2uc5d9sxwwql/branch/master?svg=true)](https://ci.appveyor.com/project/sharwell/mousenavigation/branch/master)
 
