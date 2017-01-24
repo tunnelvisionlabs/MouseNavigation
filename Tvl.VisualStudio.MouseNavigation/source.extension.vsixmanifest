@@ -6,7 +6,8 @@
     <Description>Add support for mouse navigation buttons (back and forward).</Description>
     <MoreInfo>https://github.com/tunnelvisionlabs/MouseNavigation</MoreInfo>
     <License>LICENSE.txt</License>
-    <GettingStartedGuide>https://marketplace.visualstudio.com/items?itemName=SamHarwell.MouseNavigation</GettingStartedGuide>
+    <!-- Don't include the GettingStartedGuide because it makes a web browser pop up after installation -->
+    <!--<GettingStartedGuide>https://marketplace.visualstudio.com/items?itemName=SamHarwell.MouseNavigation</GettingStartedGuide>-->
     <ReleaseNotes>https://github.com/tunnelvisionlabs/MouseNavigation/releases/tag/4.1.0</ReleaseNotes>
     <!--<Icon></Icon>-->
     <!--<PreviewImage></PreviewImage>-->
