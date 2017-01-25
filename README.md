@@ -6,4 +6,4 @@ This is an extremely simple and lightweight extension that adds support for usin
 
 If you encounter any cases where this extension does not behave the same way as pressing the navigation buttons in the toolbar, please let me know.
 
-Thanks!
+:bulb: **Note for Logitech users:** The Logitech software has been known to conflict with this extension. If you find the extension not working, see [tunnelvisionlabs/MouseNavigation#5 (comment)](https://github.com/tunnelvisionlabs/MouseNavigation/issues/5#issuecomment-240459593) for a potential solution.
