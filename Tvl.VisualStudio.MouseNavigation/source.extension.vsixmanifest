@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Tvl.VisualStudio.MouseNavigation.74370A5B-33D9-4F9E-A910-D83D487A825D" Version="4.2.0" Language="en-US" Publisher="Sam Harwell" />
+    <Identity Id="Tvl.VisualStudio.MouseNavigation.74370A5B-33D9-4F9E-A910-D83D487A825D" Version="4.3.0" Language="en-US" Publisher="Sam Harwell" />
     <DisplayName>Mouse Navigation</DisplayName>
     <Description>Add support for mouse navigation buttons (back and forward).</Description>
     <MoreInfo>https://github.com/tunnelvisionlabs/MouseNavigation</MoreInfo>
     <License>LICENSE.txt</License>
     <!-- Don't include the GettingStartedGuide because it makes a web browser pop up after installation -->
     <!--<GettingStartedGuide>https://marketplace.visualstudio.com/items?itemName=SamHarwell.MouseNavigation</GettingStartedGuide>-->
-    <ReleaseNotes>https://github.com/tunnelvisionlabs/MouseNavigation/releases/tag/4.2.0</ReleaseNotes>
+    <ReleaseNotes>https://github.com/tunnelvisionlabs/MouseNavigation/releases/tag/4.3.0</ReleaseNotes>
     <!--<Icon></Icon>-->
     <!--<PreviewImage></PreviewImage>-->
     <Tags>mouse, navigation</Tags>
